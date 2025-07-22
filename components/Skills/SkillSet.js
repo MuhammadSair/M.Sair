@@ -39,6 +39,7 @@ import {
   SiTensorflow,
   SiKeras,
   SiMaterialdesign,
+  SiPython,
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
@@ -69,6 +70,7 @@ const skillData = [
           </svg>
         ),
       },
+      { name: "python", icon: <SiPython /> },
     ],
   },
   {
