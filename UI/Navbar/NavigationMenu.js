@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { MdOutlineVerifiedUser, MdEmojiEvents } from "react-icons/md";
 const navLinks = [
   {
     href: "#about",
@@ -26,11 +25,7 @@ const navLinks = [
     activeIcon:
       "https://res.cloudinary.com/djivuystd/image/upload/v1752604745/project-active-icon_hjzxb1.svg",
   },
-  {
-    href: "#awards",
-    name: "Awards",
-    icon: MdEmojiEvents,
-  },
+
   // {
   //   href: "#certification",
   //   name: "Certification",

@@ -18,8 +18,8 @@ export default function ProfileCard() {
           <div className="intro">
             <div className="name">Muhammad Sair</div>
             <div className="profeesional-summary">
-              Full-Stack Developer blending MERN expertise with AI-driven
-              geospatial intelligence.
+              Software Engineer | Artificial Intelligence & Machine Learning
+              Enthusiast
             </div>
           </div>
           <div className="social-media-links">
