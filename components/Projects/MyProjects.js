@@ -132,11 +132,11 @@ export default function Projects() {
         <p>Projects</p>
       </div>
 
-      <div className="projects-container flex flex-col gap-6 md:gap-8">
+      <div className="projects-container flex flex-col gap-6 md:gap-8  ">
         {projects.map((project, idx) => (
           <div
             key={idx}
-            className="project flex flex-col sm:flex-row justify-between items-start text-white cursor-default rounded-[16px] transition duration-300 px-[10px] py-[16px] border border-transparent hover:-translate-y-1 hover:bg-[#1a1817] hover:shadow-lg hover:border-[#f46c38] hover:border-l-[8px]"
+            className="project flex flex-col sm:flex-row justify-between items-start text-white cursor-default rounded-[16px] transition duration-300 px-[10px] py-[16px] border border-transparent shadow-md hover:-translate-y-1 hover:bg-[#1a1817] hover:shadow-lg hover:border-[#f46c38] hover:border-l-[8px] bg-[#f7b092]"
           >
             <div className="inner-container flex flex-col md:flex-row items-center gap-5 w-full">
               {/* Image */}
