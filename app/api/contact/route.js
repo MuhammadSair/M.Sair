@@ -1,6 +1,6 @@
 import { Resend } from "resend";
 
-const resend = new Resend(re_MbEVsRnT_Fa4QKShCjQqcVEkRxj647R7V);
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req) {
   try {
@@ -16,7 +16,7 @@ export async function POST(req) {
 
     const response = await resend.emails.send({
       from: "Acme <onboarding@resend.dev>", // e.g., contact@eishaanwar.me
-      to: "msair565@gmail.com", // your personal or support email
+      to: process.env.RESEND_TO_EMAIL, // your personal or support email
       subject: `New message from ${fullName} via Portfolio`,
       reply_to: email,
       html: `
