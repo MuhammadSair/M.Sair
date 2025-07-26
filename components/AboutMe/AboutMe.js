@@ -10,15 +10,15 @@ export default function ABoutMe() {
       </div>
 
       <div className=".intro">
-        👋 With over two years of experience in software development, I
-        specialize in building scalable, full-stack web applications using
-        technologies like React.js, Next.js, and the MERN stack. My work spans
-        micro-frontend architectures, accessible component-driven design
-        systems, and automation testing. Alongside my frontend focus, I develop
-        deep learning solutions for satellite imagery analysis and apply
-        geospatial analytics in real-world contexts. Currently exploring the
-        intersection of AI and web development, I&apos;m eager to contribute to
-        innovative software solutions that push both fields forward.
+        👋 With over a year of experience in software development, I specialize
+        in building scalable, full-stack web applications using technologies
+        like React.js, Next.js, and the MERN stack. My work spans micro-frontend
+        architectures, accessible component-driven design systems, and
+        automation testing. Alongside my frontend focus, I develop deep learning
+        solutions for satellite imagery analysis and apply geospatial analytics
+        in real-world contexts. Currently exploring the intersection of AI and
+        web development, I&apos;m eager to contribute to innovative software
+        solutions that push both fields forward.
       </div>
 
       <div className="stats-container">
