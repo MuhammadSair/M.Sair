@@ -147,7 +147,7 @@ const projects = [
     preview: "/SwiftAutoTransport.jpeg", // replace with actual screenshot
     link: "https://swiftautotransport.com", // use actual deployed link if available
     tech: ["Next.js", "React", "CSS", "MUI", "Resend", "Three.js"],
-    isInternal: true, // set to false if it's public and open-source
+    isInternal: false, // set to false if it's public and open-source
     type: "web app",
     features: [
       "Built with Next.js and React for fast, SEO-friendly performance",
