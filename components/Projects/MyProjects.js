@@ -144,7 +144,7 @@ const projects = [
     name: "Swift Auto Transport – Instant Vehicle Shipping Quotes",
     description:
       "A professional, responsive web application built for a logistics company to help users get instant auto shipping quotes and schedule transport services. Delivered within a strict 7-day timeline to replace their previous site, which had gone offline.",
-    preview: "/SwiftAutoTransport.jpeg", // replace with actual screenshot
+    preview: "/SwiftAutoTransport.png", // replace with actual screenshot
     link: "https://swiftautotransport.com", // use actual deployed link if available
     tech: ["Next.js", "React", "CSS", "MUI", "Resend", "Three.js"],
     isInternal: false, // set to false if it's public and open-source
