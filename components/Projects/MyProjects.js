@@ -120,6 +120,45 @@ const projects = [
       "Dashboard for both hosts and guests to track bookings and listings",
     ],
   },
+  {
+    name: "Swift Auto Transport",
+    description:
+      "Swift Auto Transport, a trusted auto transport brokerage dedicated to fast, insured, and affordable vehicle shipping across the U.S",
+    preview: "/SparkHost.png", // Replace with an actual image or mockup
+    link: "https://github.com/your-github/sparkhost", // Optional: public repo or demo link
+    tech: ["Next.js", "CSS & MUI ", "Three.js", "Resend"],
+    isInternal: true, // Set to true if not publicly accessible
+    type: "webapp",
+    features: [
+      "SEO-ready content to help the business get back online and grow visibility",
+      "Customer testimonials and rich visual experience",
+      "Three.js to add interactive visual elements",
+      "Users can register as hosts or guests with different roles and permissions",
+      "Hosts can create and manage property listings with images, availability, and pricing",
+      "Guests can browse listings, view details, and book properties",
+      "Built-in authentication and authorization for secure access control",
+      "Dashboard for both hosts and guests to track bookings and listings",
+    ],
+  },
+  {
+    name: "Swift Auto Transport – Instant Vehicle Shipping Quotes",
+    description:
+      "A professional, responsive web application built for a logistics company to help users get instant auto shipping quotes and schedule transport services. Delivered within a strict 7-day timeline to replace their previous site, which had gone offline.",
+    preview: "/SwiftAutoTransport.jpeg", // replace with actual screenshot
+    link: "https://swiftautotransport.com", // use actual deployed link if available
+    tech: ["Next.js", "React", "CSS", "MUI", "Resend", "Three.js"],
+    isInternal: true, // set to false if it's public and open-source
+    type: "web app",
+    features: [
+      "Built with Next.js and React for fast, SEO-friendly performance",
+      "Responsive layout designed with Material UI for cross-device compatibility",
+      "Interactive landing page with custom quote form (city, ZIP code, vehicle info)",
+      "3D vehicle visuals using Three.js for added user engagement",
+      "Integrated Resend for reliable email communication and quote confirmations",
+      "Mobile-first design for seamless experience on all screen sizes",
+      "Delivered end-to-end (design, development, deployment) in under 7 days",
+    ],
+  },
 ];
 
 export default function Projects() {
