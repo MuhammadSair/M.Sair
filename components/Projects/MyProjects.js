@@ -120,26 +120,7 @@ const projects = [
       "Dashboard for both hosts and guests to track bookings and listings",
     ],
   },
-  {
-    name: "Swift Auto Transport",
-    description:
-      "Swift Auto Transport, a trusted auto transport brokerage dedicated to fast, insured, and affordable vehicle shipping across the U.S",
-    preview: "/SparkHost.png", // Replace with an actual image or mockup
-    link: "https://github.com/your-github/sparkhost", // Optional: public repo or demo link
-    tech: ["Next.js", "CSS & MUI ", "Three.js", "Resend"],
-    isInternal: true, // Set to true if not publicly accessible
-    type: "webapp",
-    features: [
-      "SEO-ready content to help the business get back online and grow visibility",
-      "Customer testimonials and rich visual experience",
-      "Three.js to add interactive visual elements",
-      "Users can register as hosts or guests with different roles and permissions",
-      "Hosts can create and manage property listings with images, availability, and pricing",
-      "Guests can browse listings, view details, and book properties",
-      "Built-in authentication and authorization for secure access control",
-      "Dashboard for both hosts and guests to track bookings and listings",
-    ],
-  },
+
   {
     name: "Swift Auto Transport – Instant Vehicle Shipping Quotes",
     description:
