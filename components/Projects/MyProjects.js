@@ -140,6 +140,72 @@ const projects = [
       "Delivered end-to-end (design, development, deployment) in under 7 days",
     ],
   },
+  {
+    name: "Klipz.ai – AI-Powered Video Clipping Platform",
+    description:
+      "A full-stack AI-driven platform that automatically generates short, shareable clips from long-form videos and YouTube links. Designed for creators and social media teams to speed up content production.",
+    preview: "/Klipz.png", // replace with actual screenshot
+    link: "https://klipz.ai/",
+    tech: [
+      "React.js",
+      "FastAPI",
+      "MongoDB Atlas",
+      "AWS ECS",
+      "Redis",
+      "S3",
+      "AssemblyAI",
+      "OpenAI",
+    ],
+    isInternal: false,
+    type: "web app",
+    features: [
+      "Generates short clips automatically using advanced speech-to-text and content analysis",
+      "Built scalable backend services using FastAPI with asynchronous job processing through Redis queues",
+      "Implemented AI transcription with AssemblyAI and OpenAI for content summarization and diarization",
+      "Containerized microservices deployed via AWS ECS Fargate with S3-based video storage",
+      "OAuth 2.0 integrations for TikTok and YouTube for direct upload and import",
+      "Designed creator-friendly UI using React.js with smooth state management",
+      "Optimized for large-video processing with distributed workloads and background tasks",
+    ],
+  },
+  {
+    name: "Polariseco – AI-Powered Proposal Generation Platform",
+    description:
+      "A platform that automates business proposal creation using AI, drastically reducing manual effort for companies dealing with complex documentation.",
+    preview: "/Polariseco.png", // replace with actual screenshot
+    link: "https://rfp.polariseco.com/",
+    tech: ["Next.js", "Node.js", "Express", "MongoDB", "GPT-4", "PDF Parsing"],
+    isInternal: false,
+    type: "web app",
+    features: [
+      "Automates proposal/document generation using GPT-4 with custom prompt engineering",
+      "Built a robust PDF parsing pipeline to extract structured content for proposal creation",
+      "Integrated intelligent document workflows to reduce proposal preparation time from days to minutes",
+      "Next.js front-end with role-based access and clean, enterprise-grade UI",
+      "Scalable backend APIs using Node.js/Express with MongoDB as the data store",
+      "Supports multi-user collaboration and draft reviews",
+      "Designed end-to-end system architecture for seamless document flow",
+    ],
+  },
+  {
+    name: "Square Your Circles – Gamified Innovation Challenge Platform",
+    description:
+      "A gamified platform designed to encourage innovation challenges through real-time leaderboards, interactive tasks, and sustainability-driven scoring metrics.",
+    preview: "/SquareYourCircles.png", // replace with actual screenshot
+    link: "https://square-your-circles.vercel.app/",
+    tech: ["Next.js", "TypeScript", "MongoDB", "Stripe", "Real-Time APIs"],
+    isInternal: false,
+    type: "web app",
+    features: [
+      "Gamified challenge system with task submissions, scoring rules, and leaderboard updates",
+      "Real-time leaderboard synced across sessions for competitive engagement",
+      "Integrated Stripe for secure payments and premium feature upgrades",
+      "Built with TypeScript and Next.js for scalable, maintainable architecture",
+      "Sustainability-focused scoring including carbon credit tracking",
+      "Modern, responsive UI optimized for participants and admins",
+      "Backend workflows designed to support large challenge events and user activity spikes",
+    ],
+  },
 ];
 
 export default function Projects() {

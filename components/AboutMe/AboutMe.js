@@ -10,15 +10,16 @@ export default function ABoutMe() {
       </div>
 
       <div className=".intro">
-        👋 With over a year of experience in software development, I specialize
-        in building scalable, full-stack web applications using technologies
-        like React.js, Next.js, and the MERN stack. My work spans micro-frontend
-        architectures, accessible component-driven design systems, and
-        automation testing. Alongside this, I develop deep learning solutions
-        for satellite imagery analysis and apply geospatial analytics in
-        real-world contexts. Currently exploring the intersection of AI and web
-        development, I&apos;m eager to contribute to innovative software
-        solutions that push both fields forward.
+        👋 I’m a software engineer with hands-on experience in building
+        full-stack, cloud-ready applications and AI-driven platforms. I’ve
+        worked on products ranging from video processing pipelines and
+        intelligent document automation to geospatial analytics and real-time
+        web systems. My work spans React, Next.js, FastAPI, Node.js, modern
+        databases, and AWS-based deployments, with additional experience in
+        machine learning using TensorFlow and Keras. Currently working as an
+        Associate Software Engineer and graduating this January, I’m passionate
+        about designing scalable systems, solving complex engineering problems,
+        and contributing to impactful, production-grade software.
       </div>
 
       <div className="stats-container">
